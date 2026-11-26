@@ -1,1 +1,3 @@
-[]
+- insert:
+    - id: universal-provider
+      name: dsh-universal-provider
