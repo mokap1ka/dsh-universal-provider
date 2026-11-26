@@ -1,1 +1,31 @@
-
+{
+  "name": "dsh-universal-provider",
+  "version": "0.1.0",
+  "description": "Универсальный провайдер для DeepSeek Harness с поддержкой URL и API-ключа",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mokap1ka/dsh-universal-provider.git"
+  },
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "provider",
+    "universal"
+  ],
+  "author": "mokap1ka",
+  "license": "MIT",
+  "dependencies": {
+    "@deepseek-ai/cordis": "^4.0.2",
+    "@deepseek-ai/dsh-llm": "^0.1.7-rc.2",
+    "@deepseek-ai/dsh-credentials": "^0.1.7-rc.2",
+    "@deepseek-ai/dsh-settings": "^0.1.7-rc.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
