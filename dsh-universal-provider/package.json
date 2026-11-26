@@ -1,7 +1,6 @@
 {
   "name": "dsh-universal-provider",
   "version": "0.1.0",
-  "description": "Универсальный провайдер для DeepSeek Harness",
   "type": "module",
   "main": "index.js",
   "files": [
@@ -13,12 +12,6 @@
       "patch": "./cordis.patch.yml"
     }
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mokap1ka/dsh-universal-provider.git"
-  },
-  "author": "mokap1ka",
-  "license": "MIT",
   "dependencies": {
     "@deepseek-ai/cordis": "^4.0.2",
     "@deepseek-ai/dsh-llm": "^0.1.7-rc.2",
